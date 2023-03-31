@@ -1,0 +1,1136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(242, 253, 253);
+}
+
+/*Cabecera de la pagina*/  
+.header-pag{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-pag h1 a{
+    text-decoration: none;
+    color: rgb(6, 6, 51);
+    font-size: 25px;
+}
+
+.header-btn{
+    width: 120px;
+    height: 40px;
+    justify-self: right;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(6, 6, 51);
+    color: rgb(255, 255, 255);
+}
+
+/*Cabecera de la pagina*/
+
+/*Seccion 1 de la pagina*/
+.body-pag{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-right: 100px;
+    gap: 50px;
+    
+}
+.section-text{
+    display: grid;
+    gap: 10px;
+    
+}
+
+.box-pag_1{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    top: 300px;
+    right: 180px;
+    padding: 10px;
+    background-color:rgb(249, 252, 255);
+    border-radius: 20px;
+    box-shadow: 10px 15px 30px;
+}
+
+.section-text h2{
+    justify-self: left;
+}
+
+.section-text p{
+    justify-self: left;
+    padding-right: 100px;
+}
+
+.section-text button{
+    justify-self: left;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(6, 6, 51);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 120px;
+}
+
+.img-pag img{
+    border-radius: 120px;
+    width: 160px;
+    height: 300px;
+}
+
+.box-pag_2{
+    position: absolute;
+    width: 100px;
+    top: 150px;
+    right: 50px;
+    padding: 15px;
+    background-color:rgb(249, 252, 255);
+    border-radius: 20px;
+    box-shadow: 10px 15px 30px;
+}
+/*Seccion 1 de la pagina*/
+
+
+/*Seccion 2 de las tarjetas*/
+.body-cards{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    
+}
+
+.box-icons{
+    background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+    border-radius: 30px;
+    padding: 7px;
+}
+
+.box-content{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+}
+
+.box-content h3{
+    color: rgb(6, 6, 51);
+}
+
+.box-content p{
+    font-size: 12px;
+}
+
+.box-content p a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    background: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.body-cards div{
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 20px;
+    height: 300px;
+}
+
+.box-color{
+    display: grid;
+    background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+}
+
+.box-color h3{
+    color: rgb(255, 255, 255);
+    align-self: center;
+    
+    
+}
+
+/*Seccion 2 de las tarjetas*/
+
+.footer-pag{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(6, 6, 51);
+}
+
+.footer-pag h1 {
+    align-self: center;
+    justify-self: start;
+    padding-left: 50px;
+}
+
+.footer-pag h1 a{
+    text-decoration: none;
+}
+
+.footer-btn{
+    justify-self: right;
+    background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+    margin-right: 100px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+@media (max-width: 2560px) {
+    .body-pag{
+        display: inline-flex;
+        margin-left: 50px;
+        margin-right: 100px;
+        gap: 200px;
+        
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 300px;
+        right: 180px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 160px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 150px;
+        right: 50px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .body-pag{
+        display: inline-flex;
+        margin-left: 50px;
+        margin-right: 100px;
+        gap: 100px;
+        
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 300px;
+        right: 180px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 160px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 150px;
+        right: 50px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+}
+
+@media (max-width: 834px) {
+    .body-pag{
+        display: inline-flex;
+        margin-left: 50px;
+        margin-right: 100px;
+        gap: 100px;
+        
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 300px;
+        right: 180px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 160px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 150px;
+        right: 50px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+    /**/
+
+
+    .body-cards{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        
+    }
+    
+    .box-icons{
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        border-radius: 30px;
+        padding: 7px;
+    }
+    
+    .box-content{
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .box-content h3{
+        color: rgb(6, 6, 51);
+    }
+    
+    .box-content p{
+        font-size: 12px;
+    }
+    
+    .box-content p a{
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        background: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    }
+    
+    .body-cards div{
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 1px 5px 20px;
+        height: 300px;
+    }
+    
+    .box-color{
+        display: grid;
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+    }
+    
+    .box-color h3{
+        color: rgb(255, 255, 255);
+        align-self: center;
+        
+        
+    }
+}
+
+@media (max-width: 767px) {
+
+    .body-pag{
+        display: inline-flex;
+        margin-left: 50px;
+        margin-right: 100px;
+        gap: 200px;
+        
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 200px;
+        right: 180px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 160px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 150px;
+        right: 50px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+    /**/
+
+
+
+    .body-cards{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 60px;
+        
+    }
+    
+    .box-icons{
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        border-radius: 30px;
+        padding: 7px;
+    }
+    
+    .box-content{
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .box-content h3{
+        color: rgb(6, 6, 51);
+    }
+    
+    .box-content p{
+        font-size: 12px;
+    }
+    
+    .box-content p a{
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        background: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    }
+    
+    .body-cards div{
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 1px 5px 20px;
+        height: 300px;
+    }
+    
+    .box-color{
+        display: grid;
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+    }
+    
+    .box-color h3{
+        color: rgb(255, 255, 255);
+        align-self: center;
+        
+        
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .header-pag{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-pag h1 a{
+        text-decoration: none;
+        color: rgb(6, 6, 51);
+        font-size: 25px;
+    }
+    
+    .header-btn{
+        width: 120px;
+        height: 40px;
+        justify-self: right;
+        border-radius: 30px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+    }
+
+
+
+    .body-pag{
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 10px;
+        
+        justify-items: center;
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 650px;
+        right: 200px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 150px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 500px;
+        right: 60px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+
+    /**/
+    .body-cards{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        
+    }
+    
+    .box-icons{
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        border-radius: 30px;
+        padding: 7px;
+    }
+    
+    .box-content{
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .box-content h3{
+        color: rgb(6, 6, 51);
+    }
+    
+    .box-content p{
+        font-size: 12px;
+    }
+    
+    .box-content p a{
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        background: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    
+    }
+    
+    .body-cards div{
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 1px 5px 20px;
+        height: 400px;
+    }
+    
+    .box-color{
+        display: grid;
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+    }
+    
+    .box-color h3{
+        color: rgb(255, 255, 255);
+        align-self: center;
+        
+        
+    }
+
+    .footer-pag{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(6, 6, 51);
+    }
+    
+    .footer-pag h1 {
+        align-self: center;
+        justify-self: start;
+        padding-left: 20px;
+    }
+    
+    .footer-pag h1 a{
+        text-decoration: none;
+    }
+    
+    .footer-btn{
+        justify-self: right;
+        background-image: linear-gradient(rgb(255, 158, 93), rgb(238, 109, 250));
+        margin-right: 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 15px;
+    
+    }
+}
+
+@media (max-width: 568px) {
+
+    .body-pag{
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 10px;
+        
+        justify-items: center;
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 750px;
+        right: 180px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 150px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 600px;
+        right: 30px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+
+}
+
+@media (max-width: 428px) {
+
+    .body-pag{
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 10px;
+        
+        justify-items: center;
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 630px;
+        right: 200px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 150px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 500px;
+        right: 80px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+
+}
+
+
+@media (max-width: 414px) {
+
+    .body-pag{
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 10px;
+        
+        justify-items: center;
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 630px;
+        right: 200px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 150px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 500px;
+        right: 80px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+
+}
+
+
+@media (max-width: 360px) {
+
+    .body-pag{
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 10px;
+        
+        justify-items: center;
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 700px;
+        right: 200px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 150px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 550px;
+        right: 60px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+
+    .body-pag{
+        display: grid;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 10px;
+        
+        justify-items: center;
+    }
+    .section-text{
+        display: grid;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .box-pag_1{
+        position: absolute;
+        width: 120px;
+        height: 60px;
+        top: 750px;
+        right: 180px;
+        padding: 10px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+    
+    .section-text h2{
+        justify-self: left;
+    }
+    
+    .section-text p{
+        justify-self: left;
+        padding-right: 100px;
+    }
+    
+    .section-text button{
+        justify-self: left;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(6, 6, 51);
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 120px;
+    }
+    
+    .img-pag img{
+        border-radius: 120px;
+        width: 150px;
+        height: 300px;
+    }
+    
+    .box-pag_2{
+        position: absolute;
+        width: 100px;
+        top: 600px;
+        right: 50px;
+        padding: 15px;
+        background-color:rgb(249, 252, 255);
+        border-radius: 20px;
+        box-shadow: 10px 15px 30px;
+    }
+
+
+}
+
+  
+
+
